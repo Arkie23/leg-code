@@ -12,7 +12,7 @@ UltraSonicDistanceSensor distanceSensor(TRIGGER_PIN, ECHO_PIN);
 const char* deviceName = "nova component 4";
 
 // Pin definitions buzzer/LED
-const int BUZZER_PIN = 11;       // Pin for haptic feedback buzzer
+const int BUZZER_PIN = 11;       // Pin makes an audible sound when an object is moved to the distance sensor
 const int LED_PIN = LED_BUILTIN; // Status LED pin
 
 // Movement state tracking
